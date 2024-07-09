@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: white;
+    }
+    
+    .home-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    }
+    
+    .home-buttons {
+    display: flex;
+    gap: 20px;
+    }
+    
+    .home-button {
+    background-color: white;
+    color: #f12711;
+    padding: 8px 16px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .home-button
+    {
+    background-color: #f8f7f5;
+    color:black;
+    }
